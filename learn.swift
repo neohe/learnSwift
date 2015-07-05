@@ -16,3 +16,14 @@ let apples = 3
 let oranges = 5
 let appleSummary = "I have \(apples) apples."
 let fruitSummary = "I have \(apples + oranges) pieces of fruit."
+
+let individualScores = [77, 56, 90, 87, 83]
+var teamScore = 0
+for score in individualScores {
+	if score >= 60 {
+		teamScore += 3
+	} else {
+		teamScore += 1
+	}
+}
+teamScore
