@@ -27,3 +27,9 @@ for score in individualScores {
 	}
 }
 teamScore
+
+var optName: String? = "Neo He"
+var greeting = "Hello!"
+if let name = optName {
+	greeting = "Hello, \(name)"
+}
