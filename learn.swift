@@ -52,11 +52,14 @@ let interestingNumbers = [
 	"Square": [1, 4, 9, 16, 25],
 ]
 var largest = 0
+var largeKind: String? = nil
 for (kind, numbers) in interestingNumbers {
 	for num in numbers {
 		if num > largest {
 			largest = num
+			largeKind = kind
 		}
 	}
 }
 largest
+largeKind
