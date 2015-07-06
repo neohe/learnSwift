@@ -99,3 +99,7 @@ class Square: NamedShape {
 let test = Square(sideLength: 5.1, name: "my test square")
 test.area()
 test.simpleDescription()
+
+
+let minValue = UInt8.min	// minValue = 0
+let maxValue = UInt8.max	// maxValue = 255
