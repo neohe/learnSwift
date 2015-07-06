@@ -104,4 +104,4 @@ test.simpleDescription()
 let minValue = UInt8.min	// minValue = 0
 let maxValue = UInt8.max	// maxValue = 255
 
-good noght!
+Good night!
