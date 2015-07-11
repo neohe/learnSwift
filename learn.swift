@@ -106,3 +106,12 @@ let maxValue = UInt8.max	// maxValue = 255
 
 Good night!
 2015.07.11
+
+
+// 2015.07.12
+var variableString = "Horse"
+variableString += " and carriage"
+// variableString is "Horse and carriage" now
+let constantString = "Hign"
+constantString += " light"
+// There is an error!
