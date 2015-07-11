@@ -115,3 +115,12 @@ variableString += " and carriage"
 let constantString = "Hign"
 constantString += " light"
 // There is an error!
+
+for ch in "Dog!"
+{
+	println(ch)
+}
+
+
+let unusualMenagerie = "Koala, Snail, Penguin, Dromedary"
+println("unusualMenagerie has \(countElements(unusualMenagerie)) characters.")
