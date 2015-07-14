@@ -124,3 +124,8 @@ for ch in "Dog!"
 
 let unusualMenagerie = "Koala, Snail, Penguin, Dromedary"
 println("unusualMenagerie has \(countElements(unusualMenagerie)) characters.")
+
+
+// 2015.07.14 chazhi
+let multiliier = 3
+let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
