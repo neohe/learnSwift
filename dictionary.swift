@@ -27,3 +27,16 @@ else
 {
 	println("That airport is not in the dictionary airports.")
 }
+
+// 移除
+airports["TYO"] = nil
+
+// 移除2：键值存在时返回原键值，不存在时返回nil
+if let removedValue = airports.removeValueForKey("TYO")
+{
+	println("The removed is \(removedValue).")
+}
+else
+{
+	println("There is no airport named DUB.")
+}
