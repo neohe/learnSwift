@@ -142,3 +142,17 @@ switch onePoint
     case let(x, y):
         println("Somewhere else at (\(x), \(y))")
 }
+
+// fallthrough
+let intint = 5
+var description = "The number \(intint) is "
+switch intint
+{
+    case 2, 3, 5, 7:
+        description += "a prime, and also"
+        fallthrough
+    default:
+        description += "an interger"
+}
+println("description")
+// The number 5 is a prime, also an interger
