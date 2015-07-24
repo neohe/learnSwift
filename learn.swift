@@ -129,3 +129,16 @@ println("unusualMenagerie has \(countElements(unusualMenagerie)) characters.")
 // 2015.07.14 chazhi
 let multiliier = 3
 let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
+
+
+// 2015.07.25
+let onePoint = (2, 0)
+switch onePoint
+{
+    case (let x, 0):
+        println("On the x-axis with an x value of \(x)")
+    case (0, let y):
+        println("On the y-axis with a y value of \(y)")
+    case let(x, y):
+        println("Somewhere else at (\(x), \(y))")
+}
