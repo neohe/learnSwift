@@ -1,6 +1,6 @@
-# continue, break, fallthrough, return
+// continue, break, fallthrough, return
 
-# continue
+// continue
 let puzzleInput = "great minds think alike"
 var puzzleOutput = ""
 for chr in puzzleInput
@@ -16,7 +16,7 @@ for chr in puzzleInput
 println(puzzleOutput)
 
 
-# break
+// break
 let numberSymbol: Character = "f"
 possibleValue: Int?
 switch numberSymbol
@@ -41,3 +41,19 @@ else
 {
     println("The integer value could not be found.")
 }
+
+
+// fallthrough
+let iint = 5
+var describe = "The number \(iint) is"
+switch iint
+{
+case 2, 3, 5, 7:
+    describe += " a prime, and also"
+    fallthrough
+default:
+    describe += " an integer."
+}
+
+println(describe)
+// The number 5 is a prime, and also an integer.
